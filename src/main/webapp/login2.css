@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0; 
+}
+html,body {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.conteiner {
+    position: relative;
+    position: absolute;
+    width: 320px;
+    height: 440px;
+    /* padding: 100px 40px 40px;
+    -webkit-box-sizing: content-box; */ 
+    box-sizing: content-box;
+    /* background-color: pink; */
+
+}
+#registerBtn, #registerBtn2 {
+    color: #d3d7f7;
+    font-size: 15px;
+}
+#registerBtn:hover, #registerBtn2:hover {
+    color: #4FA1D9;
+}
+.hiddenBox, .showBox {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    padding: 70px 40px 0px 40px;
+    backface-visibility: hidden;
+    box-shadow: -15px 15px 15px rgba(0,0,0,.4);
+    transition: all 1s;
+    background: -webkit-linear-gradient(220deg,rgba(53,57,74,0),#000);
+}
+.userTitle{
+    color: #d3d7f7;
+    padding-right: 10px;
+}
+.title {
+    height: 60px;
+    color: #d3d7f7;
+    font-size: 16px;
+    margin-bottom: 0;
+}
+.inputUserName,.inputPassWord, .inputPhoneNum {
+    margin-bottom: 15px;
+    height: 40px;
+    line-height: 40px;
+   
+}
+.inputUserName2,.inputPassWord2, .inputPhoneNum2 {
+    margin-bottom: 10px;
+    height: 40px;
+    line-height: 40px;
+   
+}
+input {
+    color: #61bfff;
+    border: none;
+    outline: none;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: transparent;
+    height: 30px;
+}
+.bottom {
+    display: flex;
+    height: 42px;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -ms-flex-align: center;
+    align-items: center;
+    padding-top: 20px;
+}
+.bottom2 {
+    margin-top: 20px;
+}
+.loginBtn {
+    padding: 10px 50px;
+    border: 2px solid #4fa1d9;
+    border-radius: 50px;
+    background: transparent;
+    font-size: 11px;
+    color: #4fa1d9;
+    -webkit-transition: all .2s;
+    -o-transition: all .2s;
+    transition: all .2s;
+    height: 42px;
+}
+.footer {
+    position: absolute;
+    bottom: 40px;
+    left: 35px;
+    width: 250px;
+    color: #d3d7f7;
+    font-size: 10px;
+}
+.phoneTest {
+    margin-left: 20px;
+    padding: 7px 4px;
+    font-size: 12px;
+    color: #d3d7f7;;
+    border: 1px solid#d3d7f7;;
+    border-radius: 2px;
+}

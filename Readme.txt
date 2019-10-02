@@ -1,7 +1,7 @@
 JavaWeb仿小米商城2019校内实训项目
 
 基于：
-	Servlet+jsp+Oracle11g XE
+	Servlet+jsp+Oracle11g XE+tomcat7
 	
 	maven一键构建
 
